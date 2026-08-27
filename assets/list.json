@@ -10,68 +10,89 @@
       {
         "key": "case_id",
         "label": "Case ID",
-        "type": "text"
+        "type": "text",
+        "required": null,
+        "options": null
       },
       {
         "key": "service_name",
         "label": "Service Name",
-        "type": "text"
+        "type": "text",
+        "required": null,
+        "options": null
       },
       {
         "key": "provider",
         "label": "Provider",
-        "type": "text"
+        "type": "text",
+        "required": null,
+        "options": null
       },
       {
         "key": "plan",
         "label": "Plan",
-        "type": "text"
+        "type": "text",
+        "required": null,
+        "options": null
       },
       {
         "key": "current_monthly_usd",
         "label": "Current Monthly USD",
-        "type": "number"
+        "type": "number",
+        "required": null,
+        "options": null
       },
       {
         "key": "proposed_monthly_usd",
         "label": "Proposed Monthly USD",
-        "type": "number"
+        "type": "number",
+        "required": null,
+        "options": null
       },
       {
         "key": "hike_pct",
         "label": "Hike %",
-        "type": "number"
+        "type": "number",
+        "required": null,
+        "options": null
       },
       {
         "key": "contract_end",
         "label": "Contract End",
-        "type": "date"
+        "type": "date",
+        "required": null,
+        "options": null
       },
       {
         "key": "promo_note",
         "label": "Promo Note",
-        "type": "text"
+        "type": "text",
+        "required": null,
+        "options": null
       },
       {
         "key": "competitor_offer_usd",
         "label": "Competitor Offer USD",
-        "type": "number"
+        "type": "number",
+        "required": null,
+        "options": null
       },
       {
         "key": "status",
         "label": "Status",
-        "type": "text"
+        "type": "text",
+        "required": null,
+        "options": null
       },
       {
         "key": "usage_history",
         "label": "Usage History",
-        "type": "text"
+        "type": "text",
+        "required": null,
+        "options": null
       }
     ],
-    "pipelineRef": {
-      "kind": "pipeline",
-      "resourceKey": "pipeline.sloane.service-renewal-workflow"
-    }
+    "child": null
   },
-  "commitMessage": "Convert service-renewals list to schema v2 portable"
+  "commitMessage": "Update list definition"
 }
