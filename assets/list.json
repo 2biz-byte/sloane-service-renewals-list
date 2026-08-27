@@ -1,101 +1,77 @@
 {
-  "schemaVersion": 1,
-  "listId": "list_b70d41025e07",
+  "schemaVersion": 2,
+  "resourceKey": "list.sloane.service-renewals",
+  "runtimeDataPolicy": "definitions_only",
   "list": {
-    "id": "list_b70d41025e07",
     "name": "service-renewals",
     "description": "Household service renewal cases for negotiation. One row per renewal with contract terms, usage history, and status through the renewal workflow (intake -> contract_read -> usage_summarized -> draft_ready).",
     "language": "en",
-    "collectionId": "coll_e11a09fc8971",
     "columns": [
       {
         "key": "case_id",
         "label": "Case ID",
-        "type": "text",
-        "required": null,
-        "options": null
+        "type": "text"
       },
       {
         "key": "service_name",
         "label": "Service Name",
-        "type": "text",
-        "required": null,
-        "options": null
+        "type": "text"
       },
       {
         "key": "provider",
         "label": "Provider",
-        "type": "text",
-        "required": null,
-        "options": null
+        "type": "text"
       },
       {
         "key": "plan",
         "label": "Plan",
-        "type": "text",
-        "required": null,
-        "options": null
+        "type": "text"
       },
       {
         "key": "current_monthly_usd",
         "label": "Current Monthly USD",
-        "type": "number",
-        "required": null,
-        "options": null
+        "type": "number"
       },
       {
         "key": "proposed_monthly_usd",
         "label": "Proposed Monthly USD",
-        "type": "number",
-        "required": null,
-        "options": null
+        "type": "number"
       },
       {
         "key": "hike_pct",
         "label": "Hike %",
-        "type": "number",
-        "required": null,
-        "options": null
+        "type": "number"
       },
       {
         "key": "contract_end",
         "label": "Contract End",
-        "type": "date",
-        "required": null,
-        "options": null
+        "type": "date"
       },
       {
         "key": "promo_note",
         "label": "Promo Note",
-        "type": "text",
-        "required": null,
-        "options": null
+        "type": "text"
       },
       {
         "key": "competitor_offer_usd",
         "label": "Competitor Offer USD",
-        "type": "number",
-        "required": null,
-        "options": null
+        "type": "number"
       },
       {
         "key": "status",
         "label": "Status",
-        "type": "text",
-        "required": null,
-        "options": null
+        "type": "text"
       },
       {
         "key": "usage_history",
         "label": "Usage History",
-        "type": "text",
-        "required": null,
-        "options": null
+        "type": "text"
       }
     ],
-    "pipelineId": "pl_e13390d8fa6d",
-    "child": null,
-    "pageId": "9beee179-c29d-4d19-9899-8964f57827a1"
+    "pipelineRef": {
+      "kind": "pipeline",
+      "resourceKey": "pipeline.sloane.service-renewal-workflow"
+    }
   },
-  "commitMessage": "Bind service-renewals list to renewal pipeline"
+  "commitMessage": "Convert service-renewals list to schema v2 portable"
 }
