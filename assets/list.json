@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "listId": "list_b70d41025e07",
+  "list": {
+    "id": "list_b70d41025e07",
+    "name": "service-renewals",
+    "description": "Household service renewal cases for negotiation. One row per renewal with contract terms, usage history, and status through the renewal workflow (intake -> contract_read -> usage_summarized -> draft_ready).",
+    "language": "en",
+    "collectionId": "coll_e11a09fc8971",
+    "columns": [
+      {
+        "key": "case_id",
+        "label": "Case ID",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "service_name",
+        "label": "Service Name",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "provider",
+        "label": "Provider",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "plan",
+        "label": "Plan",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "current_monthly_usd",
+        "label": "Current Monthly USD",
+        "type": "number",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "proposed_monthly_usd",
+        "label": "Proposed Monthly USD",
+        "type": "number",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "hike_pct",
+        "label": "Hike %",
+        "type": "number",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "contract_end",
+        "label": "Contract End",
+        "type": "date",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "promo_note",
+        "label": "Promo Note",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "competitor_offer_usd",
+        "label": "Competitor Offer USD",
+        "type": "number",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "status",
+        "label": "Status",
+        "type": "text",
+        "required": null,
+        "options": null
+      },
+      {
+        "key": "usage_history",
+        "label": "Usage History",
+        "type": "text",
+        "required": null,
+        "options": null
+      }
+    ],
+    "pipelineId": null,
+    "child": null,
+    "pageId": "9beee179-c29d-4d19-9899-8964f57827a1"
+  },
+  "commitMessage": "Initial migration from list editor"
+}
