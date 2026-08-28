@@ -2,11 +2,15 @@
   "schemaVersion": 2,
   "resourceKey": "list.sloane.service-renewals",
   "runtimeDataPolicy": "definitions_only",
-  "list": {
-    "name": "service-renewals",
-    "description": "Household service renewal cases for negotiation. One row per renewal with contract terms, usage history, and status through the renewal workflow (intake -> contract_read -> usage_summarized -> draft_ready).",
-    "language": "en",
-    "columns": [
+    "list": {
+      "name": "service-renewals",
+      "description": "Household service renewal cases for negotiation. One row per renewal with contract terms, usage history, and status through the renewal workflow (intake -> contract_read -> usage_summarized -> draft_ready).",
+      "language": "en",
+      "pipelineRef": {
+        "kind": "pipeline",
+        "resourceKey": "pipeline.sloane.service-renewal-workflow"
+      },
+      "columns": [
       {
         "key": "case_id",
         "label": "Case ID",
