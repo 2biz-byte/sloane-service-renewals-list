@@ -1,7 +1,12 @@
 {
   "schemaVersion": 1,
-  "writeMode": "append",
+  "listId": "list_b70d41025e07",
+  "collectionId": "coll_e11a09fc8971",
+  "writeMode": "upsert",
+  "upsertKey": "case_id",
+  "snapshotAt": "2026-08-30T13:30:00.000Z",
   "reason": "seeded-sloane-renew-001",
+  "count": 1,
   "records": [
     {
       "data": {
@@ -16,7 +21,9 @@
         "promo_note": "First-year rate ending",
         "competitor_offer_usd": 64.99,
         "status": "intake",
-        "usage_history": "2026-03,412,59.99;2026-04,438,59.99;2026-05,401,59.99;2026-06,455,59.99;2026-07,470,59.99;2026-08,448,59.99"
+        "usage_history": "2026-03,412,59.99;2026-04,438,59.99;2026-05,401,59.99;2026-06,455,59.99;2026-07,470,59.99;2026-08,448,59.99",
+        "_mock_gmail_subject": "Your Northline Fiber Home Gigabit plan renews 14 Sep 2026",
+        "_mock_gmail_body": "Hi -- your first-year rate of $59.99/mo ends on 14 Sep 2026. Renewal rate: $89.99/mo for Home Gigabit. No action needed to continue service at the new rate. Reply if you want to review options before the date."
       }
     }
   ]
